@@ -77,8 +77,8 @@ class HTTPClient
                     print "GET Method...." if @debug
                     Net::HTTP::Get.new( uri.request_uri, hdrs )
                when "HEAD"
-				puts "HEAD Method" if @debug
-				Net::HTTP::Head.new( uri.request_uri, hdrs )
+		    puts "HEAD Method" if @debug
+		    Net::HTTP::Head.new( uri.request_uri, hdrs )
           end
 
           request.body = request_body unless request_body.nil?
