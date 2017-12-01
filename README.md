@@ -8,6 +8,6 @@ It supports changing your body content quickly to Ostruct for easy access to JSO
 
 For support please contact: 
   
-Alberto Ochoa
+Alberto Ochoa  
 alberto.ochoa@ibcinc.com
 
